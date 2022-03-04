@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: blue;
+}
+
+.portrait-img {
+  width: 200px;
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.p-container {
+  width: 700px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 20px;
+}
