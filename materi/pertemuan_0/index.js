@@ -1,9 +1,15 @@
 let image = document.querySelector(".portrait-img");
 let button = document.querySelector(".btn");
+let currImage = "portrait-0";
+console.log(image.src);
+
 button.addEventListener("click", () => {
-  if (image.src == "public/portrait1.jpeg") image.src = "public/portrait.jpg";
-  else {
-    image.src = "public/portrait1.jpeg";
+  if (currImage == "portrait-0") {
+    currImage = "portrait-1";
+    image.src = "public/portrait-1.jpeg";
+  } else {
+    currImage = "portrait-0";
+    image.src = "public/portrait-0.jpg";
   }
   console.log(image.src);
 });
