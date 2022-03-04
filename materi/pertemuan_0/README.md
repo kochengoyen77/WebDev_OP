@@ -1,6 +1,6 @@
 # Potrait web
 portrait bisa ganti setelah click
-pergi ke link: [link]
+pergi ke link: [keSini]
 
 <br><br>
-[link]: materi1.netlify.app
+[keSini]: https://materi1.netlify.app/
